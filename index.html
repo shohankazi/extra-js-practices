@@ -9,6 +9,25 @@
       ul {
         background-color: aqua;
       }
+      .css-button-rounded--rose {
+      min-width: 130px;
+      height: 40px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      border-radius: 5px;
+      border: 2px solid #ff0a78;
+      background: #ff0a78;
+}
+.css-button-rounded--rose:hover {
+  background: #fff;
+  color: #ff0a78
+}
     </style>
   </head>
   <body>
@@ -19,7 +38,7 @@
       <li>list no - 3</li>
       <li>list no - 4</li>
     </ul>
-    <button onclick="">Click me to add more list item</button>
+    <button onclick="" class="css-button-rounded--rose">Click me to add more list item</button>
     <script src="index.js"></script>
   </body>
 </html>
