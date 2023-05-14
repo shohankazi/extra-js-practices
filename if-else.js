@@ -57,9 +57,23 @@ else{
 
 // Give statements according to age
 
+/*
 var age = 41;
 if (age < 19 || age <=40) {
     console.log("You are young!");
 } else {
     console.log("wish you a long life!");
+}
+*/
+
+// small letter or capital letter
+
+var letter = '1';
+if (letter >= 'A' && letter <= 'Z') {
+    console.log("You entered a capital letter = ", letter);
+} else if(letter >= 'a' && letter <= 'z'){
+    console.log("You entered a small letter = ", letter);
+}
+else{
+    console.log("the letter you entered is not a character");
 }
