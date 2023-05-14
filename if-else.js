@@ -1,4 +1,4 @@
-// Calculate GPA
+//  --------------------- Calculate GPA -----------------
 
 /*
 
@@ -27,7 +27,7 @@ else {
 
 */
 
-// Get the large number between two numbers
+// ---------------- Get the large number between two numbers ---------------------
 
 /*
 
@@ -41,7 +41,7 @@ if (a > b) {
 
 */
 
-// Check a number whether it is positive or negative
+// --------------------- Check a number whether it is positive or negative ---------------
 /*
 var a = 0;
 if (a === 0 ) {
@@ -55,7 +55,7 @@ else{
 
 */
 
-// Give statements according to age
+//  ------------------ Give statements according to age ---------------
 
 /*
 var age = 41;
@@ -66,7 +66,7 @@ if (age < 19 || age <=40) {
 }
 */
 
-// small letter or capital letter
+// ----------- small letter or capital letter ----------------
 /*
 var letter = '1';
 if (letter >= 'A' && letter <= 'Z') {
@@ -78,11 +78,28 @@ else{
     console.log("the letter you entered is not a character");
 }
 */
-// check whether it is vowel or consonant
 
+// ----------- check whether it is vowel or consonant -------------
+
+/*
 var letter = 'b';
 if (letter =='a' || letter == 'A' || letter == 'e' || letter == 'E'|| letter == 'i' || letter == 'i'|| letter == 'I'|| letter == 'o'|| letter == 'O'|| letter == 'u'|| letter == 'U') {
     console.log(letter, "= is a vowel.");
 } else {
     console.log(letter, "= is a consonant.");
+}
+*/
+
+// --------------- Find the largest among 3 numbers -----------------
+
+var a = 32.5;
+var b = 10;
+var c = 8;
+if (a > b && a > c) {
+    console.log(a, "= is the largest number.");
+} else if(b> c && b> a){
+    console.log(b, "= is the largest number.");
+}
+else{
+    console.log(c, "= is the largest number.");
 }
