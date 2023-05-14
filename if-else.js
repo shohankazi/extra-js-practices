@@ -67,7 +67,7 @@ if (age < 19 || age <=40) {
 */
 
 // small letter or capital letter
-
+/*
 var letter = '1';
 if (letter >= 'A' && letter <= 'Z') {
     console.log("You entered a capital letter = ", letter);
@@ -76,4 +76,13 @@ if (letter >= 'A' && letter <= 'Z') {
 }
 else{
     console.log("the letter you entered is not a character");
+}
+*/
+// check whether it is vowel or consonant
+
+var letter = 'b';
+if (letter =='a' || letter == 'A' || letter == 'e' || letter == 'E'|| letter == 'i' || letter == 'i'|| letter == 'I'|| letter == 'o'|| letter == 'O'|| letter == 'u'|| letter == 'U') {
+    console.log(letter, "= is a vowel.");
+} else {
+    console.log(letter, "= is a consonant.");
 }
