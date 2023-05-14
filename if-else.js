@@ -91,7 +91,7 @@ if (letter =='a' || letter == 'A' || letter == 'e' || letter == 'E'|| letter == 
 */
 
 // --------------- Find the largest among 3 numbers -----------------
-
+/*
 var a = 32.5;
 var b = 10;
 var c = 8;
@@ -103,3 +103,4 @@ if (a > b && a > c) {
 else{
     console.log(c, "= is the largest number.");
 }
+*/
