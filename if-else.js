@@ -42,7 +42,7 @@ if (a > b) {
 */
 
 // Check a number whether it is positive or negative
-
+/*
 var a = 0;
 if (a === 0 ) {
     console.log(a, "is not a positive or negative number!");
@@ -51,4 +51,15 @@ if (a === 0 ) {
 }
 else{
     console.log(a, "is a negative number!");
+} 
+
+*/
+
+// Give statements according to age
+
+var age = 41;
+if (age < 19 || age <=40) {
+    console.log("You are young!");
+} else {
+    console.log("wish you a long life!");
 }
