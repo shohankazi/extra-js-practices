@@ -88,7 +88,21 @@ do {
 
 // ----------------------- Show 5,10,15,20 etc using for loops ------------------------
 
-var a = 1;
+/*
 for(i = 5; i <= 50 ; i+=5){
-    console.log(a*i);
+    console.log(i);
 }
+*/
+
+
+// ---------------------- Show 5,10,15,20 etc using for loops -----------------------
+
+// var a = 1;
+
+/*
+var i = 5;
+while (i <= 50) {
+    console.log( i);
+    i= i + 5;
+}
+*/
