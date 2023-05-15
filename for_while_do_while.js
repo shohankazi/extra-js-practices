@@ -57,8 +57,29 @@ do {
 */
 
 // ------------------------ Show even numbers using for loops ------------------
+
+/*
 for(i = 1 ; i <= 10; i++){
     if (i % 2 === 0) {
         console.log(i);
     }
 }
+*/
+
+// ------------------------ Show even numbers using while loops ----------------
+
+/*
+var i = 2;
+while ( i <= 10) {
+    console.log(i);
+    i+= 2;
+}
+*/
+
+// ----------------------- Show even numbers using do while loops -------------------
+
+var i = 2;
+do {
+    console.log(i);
+    i += 2;
+} while ( i <= 10);
