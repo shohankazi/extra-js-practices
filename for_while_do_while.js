@@ -78,8 +78,17 @@ while ( i <= 10) {
 
 // ----------------------- Show even numbers using do while loops -------------------
 
+/*
 var i = 2;
 do {
     console.log(i);
     i += 2;
 } while ( i <= 10);
+*/
+
+// ----------------------- Show 5,10,15,20 etc using for loops ------------------------
+
+var a = 1;
+for(i = 5; i <= 50 ; i+=5){
+    console.log(a*i);
+}
