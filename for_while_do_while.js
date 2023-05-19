@@ -106,3 +106,9 @@ while (i <= 50) {
     i= i + 5;
 }
 */
+
+// ----------------------- Show square series using for loop -----------------
+
+for(i = 1;i <= 20; i *= 2){
+    console.log(i);
+}
